@@ -1,16 +1,16 @@
 <?xml version='1.0' standalone='yes'?>
 <extensions>
+  <plugins>
+    <plugin minTarget="8.5" maxTarget="*" version="1.6.101" name="LocalPlayer">
+      <url>https://github.com/michaelherger/plugin-LocalPlayer/releases/download/1.6.101/LocalPlayer.zip</url>
+      <email>triode1@btinternet.com</email>
+      <desc lang="EN">Local playback from your server computer using the Squeezelite software emulator.  This plugin uses Squeezelite to playback through the audio output of your server computer.  The player can be controlled from the server's web interface or other Squeezebox controller applications.  Note: the plugin will only support servers or NAS devices with Intel or ARM processors.</desc>
+      <title lang="EN">Local Player</title>
+      <creator>Triode</creator>
+      <sha>b16c78cb564fb3f2ec1ad4b784c5d8b7e88dc906</sha>
+    </plugin>
+  </plugins>
   <details>
     <title lang="EN">LocalPlayer</title>
   </details>
-  <plugins>
-		<plugin name="LocalPlayer" version="1.6.100" minTarget="8.5" maxTarget="*">
-			<title lang="EN">Local Player</title>
-			<desc  lang="EN">Local playback from your server computer using the Squeezelite software emulator.  This plugin uses Squeezelite to playback through the audio output of your server computer.  The player can be controlled from the server's web interface or other Squeezebox controller applications.  Note: the plugin will only support servers or NAS devices with Intel or ARM processors.</desc>
-			<creator>Triode</creator>
-			<email>triode1@btinternet.com</email>
-			<url>https://www.herger.net/_data/LocalPlayer-1.6.101.zip</url>
-			<sha>23f243fef15b6bffc0c943eabf8414e54a05834b</sha>
-		</plugin>
-  </plugins>
 </extensions>
